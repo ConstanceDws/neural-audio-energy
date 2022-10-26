@@ -1,0 +1,12 @@
+sr: 16000
+n_signal: 16384
+n_mel: 80
+mel_stride: 256
+n_flows: 12
+n_group: 8
+n_early_every: 4
+n_early_size: 2
+n_layers_wn: 8 
+n_channels_wn: 256
+kernel_size_wn: 3
+sigma: 1.

@@ -1,0 +1,38 @@
+up_dims:
+  - 80
+  - 512
+  - 384
+  - 384
+  - 256
+  - 128
+  - 64
+  - 1
+up_cycle_size:
+  - 4
+  - 4
+  - 4
+  - 2
+  - 2
+up_ratio:
+  - 4
+  - 4
+  - 4
+  - 4
+  - 2
+down_dims:
+  - 1
+  - 32
+  - 64
+  - 128
+  - 256
+  - 384
+down_cycle_size:
+  - 2
+  - 2
+  - 2
+  - 2
+down_ratio: # must be compatible with up_ratios
+  - 2
+  - 4
+  - 4
+  - 4

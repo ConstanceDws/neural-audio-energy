@@ -1,0 +1,9 @@
+n_mel: 80
+mel_stride: 256
+ngf: 32
+n_residual_layers_gen: 3
+ratios_gen: [8, 8, 2, 2]
+num_discriminators: 3
+ndf: 16
+n_layers_disc: 4
+downsamp_factor: 4

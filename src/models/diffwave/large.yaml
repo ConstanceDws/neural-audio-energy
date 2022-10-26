@@ -1,0 +1,4 @@
+residual_layers: 30
+residual_channels: 128
+dilation_cycle_length: 10
+

@@ -1,0 +1,12 @@
+sr: 16000
+n_signal: 16384
+n_mel: 80
+mel_stride: 256
+in_channels: 1
+res_channels: 96
+n_height: 16
+n_flow: 8
+n_layer: 8
+layers_per_dilation_h_cycle: 1
+bipartize: False
+sigma: 1.
