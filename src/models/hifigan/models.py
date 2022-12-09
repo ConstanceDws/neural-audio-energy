@@ -1,4 +1,4 @@
-"""Mainly taken from official code https://github.com/descriptinc/https://github.com/jik876/hifi-gan"""
+"""Mainly taken from official code https://github.com/jik876/hifi-gan"""
 
 import torch
 import torch.nn.functional as F
