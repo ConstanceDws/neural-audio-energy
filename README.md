@@ -1,4 +1,4 @@
-This project is under review for the ICASSP-23 conference.
+This project has been accepted at the ICASSP-23 conference.
 
 # Neural Audio Energy
 
