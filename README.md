@@ -1,4 +1,6 @@
-This project has been accepted at the ICASSP-23 conference.
+This project was presented at the ICASSP 2023 in Rhodos, Greece. 
+
+[Download paper here](https://ieeexplore.ieee.org/document/10096975)
 
 # Neural Audio Energy
 
