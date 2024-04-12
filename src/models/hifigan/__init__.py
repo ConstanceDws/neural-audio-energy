@@ -1,5 +1,5 @@
 import torch
-from .hifigan_repo import models, meldataset
+from . import models, meldataset
 import pytorch_lightning as pl
 import numpy as np
 from types import SimpleNamespace
