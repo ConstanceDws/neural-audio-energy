@@ -1,6 +1,4 @@
-from .dummy.dummy import Dummy
-from .wavenet.model import Wavenet
-from .wavegrad import WaveGrad
+from .wavegrad.wavegrad import WaveGrad
 from .melgan.model import MelGAN
 from .waveflow.model import WaveFlow
 from .hifigan import HifiGAN
@@ -20,15 +18,13 @@ def path_to_dict(path):
 
 
 def get_variant_dict(model_name):
-    path = os.path.join("energetic_training", "models", model_name, "*.yaml")
+    path = os.path.join("src", "models", model_name, "*.yaml")
     variant = map(path_to_dict, glob(path))
     return {k: v for k, v in variant}
 
 
 # ADD NEW MODELS HERE !
 available_models = {
-    # "dummy": Dummy,
-    "wavenet": Wavenet,
     "wavegrad": WaveGrad,
     "melgan": MelGAN,
     "waveflow": WaveFlow,
