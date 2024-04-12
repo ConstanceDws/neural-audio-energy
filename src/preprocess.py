@@ -13,8 +13,8 @@ def get_audio_preprocess(sampling_rate, N, n_mel, stride):
             print(e)
             return None
 
-        # pad = (N - (len(x) % N)) % N
-        # x = np.pad(x, (0, pad))
+        pad = (N - (len(x) % N)) % N
+        x = np.pad(x, (0, pad))
         x = x[:N]
 
         S = li.feature.melspectrogram(x, sr, hop_length=stride, n_mels=n_mel)
